@@ -1,7 +1,7 @@
 package ec.edu.espoc.libreria.genero;
 
 public enum Genero {
-FICCION("Ficción"),
+    FICCION("Ficción"),
     NO_FICCION("No Ficción"),
     EDUCATIVO("Educativo");
 
