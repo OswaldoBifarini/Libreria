@@ -1,11 +1,17 @@
 package ec.edu.espoc.libreria.genero;
 
 public enum Genero {
-    FICCION,
-    NO_FICCION,
-    EDUCATIVO;
+FICCION("Ficción"),
+    NO_FICCION("No Ficción"),
+    EDUCATIVO("Educativo");
+
+    private final String descripcion;
+
+    Genero(String descripcion) {
+        this.descripcion = descripcion;
+    }
 
     public String getDescripcion() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return descripcion;
     }
 }
